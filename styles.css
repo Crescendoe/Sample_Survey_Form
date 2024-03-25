@@ -1,0 +1,72 @@
+body {
+    background-image: url('https://images.unsplash.com/photo-1552820728-8b83bb6b773f?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1, p, form {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, p {
+    text-align: center;
+}
+
+h1 {
+    font-size: 32px;
+    margin-top: 25px;
+}
+
+#name, #email, #number, #dropdown, #dropdown-2, #favorite-game {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+}
+
+#comments {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+    height: 100px;
+}
+
+fieldset {
+    margin: auto; 
+    border: none;  
+}
+
+form {
+    background-color: rgba(0, 0, 0, 0.75); /* Black background with 0.5 opacity */
+    padding: 20px;
+    border-radius: 10px;
+    width: 43%;
+    margin: 0 auto;
+}
+
+#submit {
+    background-color: rgb(76, 187, 76);
+    color: white;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block; 
+    font-size: 16px;
+    margin: 4px auto; 
+    cursor: pointer;
+    border-radius: 10px; 
+}

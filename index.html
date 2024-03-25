@@ -1,0 +1,129 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="Survey Form" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1 id="title">Gaming Public Survey</h1>
+        <p id="description">Please answer the following questions</p>
+      
+        <form id="survey-form">
+            <fieldset>
+                <label for="name" id="name-label">Name</label><br>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required style="margin-top: 10px;">
+            </fieldset>
+            <fieldset>
+                <label for="email" id="email-label">Email</label><br>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required style="margin-top: 10px;">
+            </fieldset>
+            <fieldset>
+                <label for="number" id="number-label">Age</label><br>
+                <input type="number" id="number" name="number" placeholder="Enter your age" min="0" max="120" required style="margin-top: 10px;">
+            </fieldset>
+      
+            <fieldset>
+                <legend for="dropdown">What platform do you primarily game on?</legend>
+                <select id="dropdown" name="platform" required>
+                    <option value="pc">PC</option>
+                    <option value="ps">PlayStation (PS5, PS4, etc.)</option>
+                    <option value="xbox">Xbox (Series X/S, One, etc.)</option>
+                    <option value="switch">Nintendo Switch</option>
+                    <option value="mobile">Mobile</option>
+                    <option value="other">Other</option>
+                </select>
+            </fieldset>
+      
+            <fieldset>
+              <legend>Which of these features is MOST important to you?</legend>
+              <label for="narrative"><input type="radio" id="narrative" name="feature" value="narrative"/>Narrative</label><br>
+              <label for="graphics"><input type="radio" id="graphics" name="feature" value="graphics"/>Graphics</label><br>
+              <label for="gameplay"><input type="radio" id="gameplay" name="feature" value="gameplay"/>Gameplay</label><br>
+              <label for="multiplayer"><input type="radio" id="multiplayer" name="feature" value="multiplayer"/>Multiplayer</label><br>
+              <label for="music"><input type="radio" id="music" name="feature" value="music"/>Music</label><br>
+              <label for="other"><input type="radio" id="other" name="feature" value="other"/>Other</label><br>
+            </fieldset>
+
+            <fieldset>
+                <legend for="dropdown-2">How often do you play video games?</legend>
+                <select id="dropdown-2" name="frequency" required>
+                  <option value="daily">Daily</option>
+                  <option value="fewtimesweek">A few times a week</option>
+                  <option value="weekly">Once a week</option>
+                  <option value="fewtimesmonth">A few times a month</option>
+                  <option value="rarely">Rarely</option>
+                </select>
+              </fieldset>
+              
+              <fieldset>
+                <legend>What genre of games do you enjoy the most? (Check all that apply)</legend>
+                <div style="margin-bottom: 3px;">
+                    <label for="adventure"><input type="checkbox" id="adventure" name="genre" value="adventure"/>Adventure (e.g., Tomb Raider, Uncharted)</label>
+                </div>
+                <div style="margin-bottom: 3px;">
+                    <label for="action"><input type="checkbox" id="action" name="genre" value="action"/>Action (e.g., God of War, Devil May Cry)</label>
+                </div>
+                <div style="margin-bottom: 3px;">
+                    <label for="rpg"><input type="checkbox" id="rpg" name="genre" value="rpg"/>Role-Playing Game (RPG) (e.g., Final Fantasy, The Witcher)</label>
+                </div>
+                <div style="margin-bottom: 3px;">
+                    <label for="fps"><input type="checkbox" id="fps" name="genre" value="fps"/>First-Person Shooter (FPS) (e.g., Call of Duty, Halo)</label>
+                </div>
+                <div style="margin-bottom: 3px;">
+                    <label for="sports"><input type="checkbox" id="sports" name="genre" value="sports"/>Sports (e.g., FIFA, NBA 2K)</label>
+                </div>
+                <div style="margin-bottom: 3px;">
+                    <label for="fighting"><input type="checkbox" id="fighting" name="genre" value="fighting"/>Fighting (e.g., Street Fighter, Super Smash Bros.)</label>
+                </div>
+                <div style="margin-bottom: 3px;">
+                    <label for="horror"><input type="checkbox" id="horror" name="genre" value="horror"/>Horror (e.g., Resident Evil, Silent Hill)</label>
+                </div>
+                <div style="margin-bottom: 3px;">
+                    <label for="platformer"><input type="checkbox" id="platformer" name="genre" value="platformer"/>Platformer (e.g., Super Mario, Sonic the Hedgehog)</label>
+                </div>
+                <div style="margin-bottom: 3px;">
+                    <label for="racing"><input type="checkbox" id="racing" name="genre" value="racing"/>Racing (e.g., Mario Kart, Forza)</label>
+                </div>
+                <div style="margin-bottom: 3px;">
+                    <label for="open-world"><input type="checkbox" id="open-world" name="genre" value="open-world"/>Open-World (e.g., Grand Theft Auto, Red Dead Redemption)</label>
+                </div>
+                <div style="margin-bottom: 3px;">
+                    <label for="mmorpg"><input type="checkbox" id="mmorpg" name="genre" value="mmorpg"/>Massively Multiplayer Online RPG (e.g., World of Warcraft, Final Fantasy XIV)</label>
+                </div>
+                <div style="margin-bottom: 3px;">
+                    <label for="music"><input type="checkbox" id="music" name="genre" value="music"/>Music/Rhythm (e.g., Guitar Hero, Dance Dance Revolution)</label>
+                </div>
+                <div style="margin-bottom: 3px;">
+                    <label for="party"><input type="checkbox" id="party" name="genre" value="party"/>Party (e.g., Mario Party, Jackbox Party Pack)</label>
+                </div>
+                <div style="margin-bottom: 3px;">
+                    <label for="strategy"><input type="checkbox" id="strategy" name="genre" value="strategy"/>Strategy (e.g., Civilization, Starcraft)</label>
+                </div>
+                <div style="margin-bottom: 3px;">
+                    <label for="simulation"><input type="checkbox" id="simulation" name="genre" value="simulation"/>Simulation (e.g., The Sims, Animal Crossing)</label>
+                </div>
+                <div style="margin-bottom: 3px;">
+                    <label for="puzzle"><input type="checkbox" id="puzzle" name="genre" value="puzzle"/>Puzzle (e.g., Tetris, Portal)</label>
+                </div>
+                <div style="margin-bottom: 3px;">
+                    <label for="visual-novel"><input type="checkbox" id="visual-novel" name="genre" value="visual-novel"/>Visual Novel (e.g., Ace Attorney, Steins;Gate)</label>
+                </div>
+                <div style="margin-bottom: 3px;">
+                    <label for="indie"><input type="checkbox" id="indie" name="genre" value="indie"/>Indie (Independent studio titles, e.g., Celeste, Hollow Knight)</label>
+                </div>
+              </fieldset>
+
+                <fieldset>
+                    <legend>What is your favorite video game of all time?</legend>
+                    <input type="text" id="favorite-game" name="favorite-game" placeholder="Enter your favorite game" required>
+                </fieldset>
+                
+                <fieldset>
+                    <legend for="comments">Any additional comments?</legend>
+                    <textarea id="comments" name="comments" placeholder="Enter your comments here"></textarea>
+                </fieldset>
+                
+                <button type="submit" id="submit">Submit</button>
+          </form>
+      </body>
