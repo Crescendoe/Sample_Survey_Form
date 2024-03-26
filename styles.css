@@ -50,7 +50,7 @@ fieldset {
 }
 
 form {
-    background-color: rgba(0, 0, 0, 0.75); /* Black background with 0.5 opacity */
+    background-color: rgba(0, 0, 0, 0.75); 
     padding: 20px;
     border-radius: 10px;
     width: 43%;
