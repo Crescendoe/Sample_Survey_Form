@@ -1,5 +1,4 @@
 This project contains the HTML and CSS code for a public survey about gaming habits and preferences.
-Functionality
 
 - Users can enter their name, email, and age.
 - Users can select their primary gaming platform from a dropdown menu.
